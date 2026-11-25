@@ -1,0 +1,15 @@
+{
+  "synthetic_rows": 23006,
+  "genes": 9,
+  "saved_order_recovered_after_input_shuffle": true,
+  "training_mean_zero_sd_one": true,
+  "refuses_overwrite": true,
+  "model_training_performed": false,
+  "R_sources_parse_passed": 22,
+  "R_analysis_executed": false,
+  "Python_model_training_executed": false,
+  "GPU_inference_executed": false,
+  "private_files_scan": "Independent QC agent found no reviewer tokens, credential assignments, personal absolute source paths, raw reads or expression matrices in added release files.",
+  "superseded_or_damaged_R_originals_removed_from_current_tree": 2,
+  "reorganization": "Functional grouping and descriptive filenames; relocated analysis file bytes unchanged"
+}

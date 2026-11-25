@@ -49,7 +49,7 @@ def main():
                 assert cell["execution_count"] is None and cell["outputs"] == []
                 source = "".join(cell["source"])
                 assert "/home/" not in source and "/media/" not in source
-    checksums = ROOT / "provenance/SHA256SUMS.txt"
+    checksums = ROOT / "docs/provenance/SHA256SUMS.txt"
     verified = 0
     for line in checksums.read_text().splitlines():
         digest, name = line.split("  ", 1)

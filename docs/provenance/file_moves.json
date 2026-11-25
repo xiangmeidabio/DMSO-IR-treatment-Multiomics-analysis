@@ -1,0 +1,149 @@
+[
+  {
+    "previous_path": "Figure1_1_Seurat.R",
+    "path": "analysis/cell_atlas/preprocessing.R",
+    "sha256": "c8309f52f1ad29dd078955208b652ce0e2194fe968765782e760360664fdd6ac",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure1_2_Marker.R",
+    "path": "analysis/cell_atlas/cell_annotation.R",
+    "sha256": "3788980959fc5d75707193400d5b275c76144a0a6264d034fb95901b66e050b2",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure1_3_Dotplot.R",
+    "path": "analysis/cell_atlas/marker_expression.R",
+    "sha256": "4a3d77f907cd6bd8240d30006f6645b1229d3ea3fa142037030a3160b8cddb04",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure1_4_Ratio_Change.R",
+    "path": "analysis/cell_atlas/cell_composition.R",
+    "sha256": "9cdf1a7dfc9f78593219f814d5c4691cad32a165034aa151089761eacbdaa07b",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure1_5_Sample_Correlation.R",
+    "path": "analysis/cell_atlas/sample_correlation.R",
+    "sha256": "14ee873f90d64bc23a50b661e3c7fa8c16dd02b0cac5741995f9420765b6c7bc",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure2_1_All_Celltype_DEG.R",
+    "path": "analysis/radiation_response/differential_expression.R",
+    "sha256": "e552e31834d91c3373623945a88d78cc431bbaca68e6bfb0cee7a226631c0611",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure2_2_All_Celltype_Coserved_DEG.R",
+    "path": "analysis/radiation_response/conserved_expression.R",
+    "sha256": "ded7f80d811fbd3ae8889295c0c70293b058c77c6b4705aebaa585b022ca1c44",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure2_4_Gata2_Klf6_Exp.R",
+    "path": "analysis/radiation_response/gata2_klf6_expression.R",
+    "sha256": "4e24fd40cca7f5e3a527f17428d61e21ee669f07f76c30c4c2c1d3422556df6f",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure3_1_Augur.R",
+    "path": "analysis/radiation_response/augur.R",
+    "sha256": "02cd56668f6b01a10dd5c8cd3b6aa83fa149544f7161fce4feabb79fc90584a5",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure3_2_IR_vs_Ctrl_Transcriptional_Diversity_Correlates_with_Radiation_Sensitivity(Augur).R",
+    "path": "analysis/transcriptional_sensitivity/ir_expression_diversity.R",
+    "sha256": "83917414866c2f29548c90fcec50d5216a583418fcb98933c0079f9cd2dc7e3f",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure3_3_DMSO_vs_Ctrl_Transcriptional_Diversity_Correlates_with_Radiation_Sensitivity(Augur).R",
+    "path": "analysis/transcriptional_sensitivity/dmso_expression_diversity.R",
+    "sha256": "d6b413e6314dbdf3731245ad7f3f4b2f92ea2559b5036eb16361581a3bfba036",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure3_5_nFeature_vs_DSBscore_Correlation.R",
+    "path": "analysis/transcriptional_sensitivity/nfeature_dsb_score.R",
+    "sha256": "21f4672379449bcb5d0f700125027160e54539b748e73593359e05d59af5f86e",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure4_1_HSC_Lineage_Bias_Ratio.R",
+    "path": "analysis/hsc/lineage_bias.R",
+    "sha256": "89a9e77213544c0afe7bc4f3c338a266834871109e287e060406623d1039acfd",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure4_2_HSC_Signature_Score.R",
+    "path": "analysis/hsc/stemness_scores.R",
+    "sha256": "ce16c4414ac106819d11fef4ab020f98ac75e90742575d397a6b9adf41c4d3b7",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure4_3_HSC_Monocle3.R",
+    "path": "analysis/hsc/trajectory.R",
+    "sha256": "ece2c09d492b12fcf0751a98c1a3b2e7c1e36ec574637bb851ef40d4c4e2d554",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure4_4_HSC_lym_mye_bias_DEG_heatmap_boxplot.R",
+    "path": "analysis/hsc/lineage_expression.R",
+    "sha256": "7993283485655eba21a0d86e2e5c1cbf6b37ff523f124f713b98dc75961f421e",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure5_1_HSC_DEG_overlap_Venn.R",
+    "path": "analysis/hsc/deg_overlap.R",
+    "sha256": "757607418c91111ced1c9ba235c89dfc266f2f08009d0acc7f01e0e15ea675df",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure5_2_HSC_common_DEG_heatmap_cluster.R",
+    "path": "analysis/hsc/expression_modules.R",
+    "sha256": "ec73ee25271edcd56ca5fc6152bee4120809502d7436b5d061f00da8b7ce1260",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure5_3_HSC_IR_vs_Ctrl_boxplots.R",
+    "path": "analysis/hsc/module_expression.R",
+    "sha256": "e2c3b4abc693224138efc704ba59582661d4de1046612278b3fb15e9a189f8bc",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure5_4_HSC_cluster_GO_barplot.R",
+    "path": "analysis/hsc/module_enrichment.R",
+    "sha256": "e72384c2bbbe0e13cb0eb09af1a284650c0bc0966a1c8d46721e5c643f75e944",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "analysis/legacy_fixes/Figure2_3_ATAC_Homer_Plot_fixed.R",
+    "path": "analysis/atac/motif_enrichment.R",
+    "sha256": "62cbe38065f0af1fd6f676dada5763362c3fac701a0e7d760f295b0774f75e5d",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "analysis/legacy_fixes/run_meld_archived.py",
+    "path": "analysis/transcriptional_sensitivity/meld.py",
+    "sha256": "e912a3425e6770ead28e7d83cace060408cddb3f9e9360ac991969db499fd8bb",
+    "change": "Moved and renamed; contents unchanged"
+  },
+  {
+    "previous_path": "Figure2_3_ATAC_Homer_Plot.R",
+    "sha256": "e7505056262ef5b7f4715671bcd8b91368ab530e7b24a8179110b53d3bd0a994",
+    "change": "Removed from current tree; retained in Git history at fad90ec8a11590fc62b6b3d6dcbaa7cb2dc48a31"
+  },
+  {
+    "previous_path": "Figure3_4_IR_vs_Ctrl_Transcriptional_Diversity_Correlates_with_Radiation_Sensitivity(Meld).R",
+    "sha256": "7ea51d2c4a03841f2ac7d42da3b2522b4efe605f8df01d5e16f1d0ad5397dea4",
+    "change": "Removed from current tree; retained in Git history at fad90ec8a11590fc62b6b3d6dcbaa7cb2dc48a31"
+  },
+  {
+    "previous_path": "overview.png",
+    "sha256": "bd0b9a12e7e7aa3392bf5c6289799d9c7794b160532bb0f174eab6988f5d4a43",
+    "change": "Unused earlier overview removed from current tree; retained in Git history at fad90ec8a11590fc62b6b3d6dcbaa7cb2dc48a31"
+  }
+]

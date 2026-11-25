@@ -2,7 +2,7 @@
 
 ## Software records
 
-The analyses were performed in several environments. Do not treat the lists below as one verified historical environment or install all workflows into a single environment.
+The analyses use separate R and Python environments. The table distinguishes recorded package versions from dependencies identified in the source code.
 
 | Component | Available record | Meaning |
 |---|---|---|
@@ -49,10 +49,10 @@ Only load locally trusted pickle/model files. Model weights and pickle data are 
 
 See [the dedicated instructions](../analysis/squidiff/README.md). Count normalization for Squidiff is documented explicitly and is separate from the classifier's archived standardized feature matrices. Both analyses use the same ordered 100-gene panel.
 
-## 4. Existing R analyses and supplementary resources
+## 4. R analyses and supporting resources
 
-Root R scripts retain historical paths and depend on named Seurat/Monocle/Augur objects loaded in the original analysis session. Set paths to the corresponding local inputs before use; their filenames do not define a standalone dependency graph. `resources/README.txt` lists the saved inputs available in this release and those obtained separately. The program-scoring and CellChat audit scripts there retain relative paths from the original project, including intermediate objects not distributed here.
+R scripts are grouped under `analysis/cell_atlas/`, `analysis/radiation_response/`, `analysis/hsc/` and `analysis/transcriptional_sensitivity/`. They use Seurat, Monocle and Augur objects from the original analysis session. Set the input paths and working directory for the corresponding local data before use. The repaired ATAC motif plot is in `analysis/atac/`. `resources/README.txt` lists the saved inputs available in this release and those obtained separately. The program-scoring and CellChat audit scripts there retain relative paths from the original project, including intermediate objects not distributed here.
 
 ## Verification performed for this release
 
-The dependency-free repository checker validates resource counts, labels, ordering, hashes and Python ASTs. CLI help was checked for the portable entry points. A synthetic 23,006-row, nine-feature input check recovered the archived order after shuffling input rows, confirmed training-only zero-mean/unit-variance scaling and confirmed that existing outputs cannot be overwritten. This test did not use or regenerate study expression results. Source review compared the portable preprocessing/inference steps with the archived notebook and model code. Static R parsing also identified two pre-existing source problems; the ATAC plotting snippet has a minimal repair copy, while the damaged MELD R file remains explicitly documented. Expensive model training, GPU inference, R analysis execution and exact historical-output regeneration were not performed for this release.
+The dependency-free repository checker validates resource counts, labels, ordering, hashes and Python ASTs. CLI help was checked for the portable entry points. A synthetic 23,006-row, nine-feature input check recovered the archived order after shuffling input rows, confirmed training-only zero-mean/unit-variance scaling and confirmed that existing outputs cannot be overwritten. This test did not use or regenerate study expression results. Source review compared the portable preprocessing/inference steps with the archived notebook and model code. All retained R sources parse. The repaired ATAC plot replaces the old copy; a damaged MELD R file is retained only in Git history, with the separately saved Python analysis provided for reference. Expensive model training, GPU inference, R analysis execution and exact historical-output regeneration were not performed for this release.

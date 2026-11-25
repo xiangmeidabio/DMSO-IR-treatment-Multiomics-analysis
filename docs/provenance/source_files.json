@@ -264,7 +264,7 @@
     "change": "Unmodified source copy"
   },
   {
-    "source": "Squidiff/训练/train_squidiff.py",
+    "source": "Squidiff/\u8bad\u7ec3/train_squidiff.py",
     "destination": "analysis/squidiff/vendor/train_squidiff.py",
     "source_sha256": "a3517adf89c053436ecbf5c8c386e1f407e4944c2c45429a747843c614c5d7f3",
     "change": "Unmodified source copy"
@@ -276,26 +276,26 @@
     "change": "Unmodified source copy"
   },
   {
-    "source": "Squidiff/训练/1-process.ipynb",
+    "source": "Squidiff/\u8bad\u7ec3/1-process.ipynb",
     "destination": "analysis/squidiff/notebooks/1-process.ipynb",
     "source_sha256": "10a8273ff41310c238d7557dfb5afba38d1c6a50a7f7632c618123b403d08d95",
     "change": "Selected 100-gene cells only; outputs and execution counts removed; local absolute paths made configurable/relative; analysis code otherwise preserved."
   },
   {
-    "source": "Squidiff/训练/2-data.ipynb",
+    "source": "Squidiff/\u8bad\u7ec3/2-data.ipynb",
     "destination": "analysis/squidiff/notebooks/2-data.ipynb",
     "source_sha256": "59faa182c592adf6a4f718e24a6998bf3a7bfa483c9cd674f0598098173ca688",
     "change": "Selected 100-gene cells only; outputs and execution counts removed; local absolute paths made configurable/relative; analysis code otherwise preserved."
   },
   {
     "source": "GitHub root Figure2_3_ATAC_Homer_Plot.R",
-    "destination": "analysis/legacy_fixes/Figure2_3_ATAC_Homer_Plot_fixed.R",
+    "destination": "analysis/atac/motif_enrichment.R",
     "source_sha256": "e7505056262ef5b7f4715671bcd8b91368ab530e7b24a8179110b53d3bd0a994",
     "change": "Minimal copy: invalid Windows paths replaced with distributed table paths; y-axis label corrected from -log10 to -ln with numerical values unchanged; historical root file retained."
   },
   {
     "source": "result/7_meld/run_meld.py",
-    "destination": "analysis/legacy_fixes/run_meld_archived.py",
+    "destination": "analysis/transcriptional_sensitivity/meld.py",
     "source_sha256": "9ecb697d604acf6bdf0db59328700d8f1b30195e278290cd927c8231b9a15f26",
     "change": "Archived Python MELD source; comment IPython-only magic commands and make two personal absolute paths environment variables. Does not reconstruct damaged R plotting code."
   }
