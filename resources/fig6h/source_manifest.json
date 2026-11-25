@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "group": "Ctrl",
+      "file": "new/train-normalized/data/Ctrl_normalized.csv",
+      "size": 593213780,
+      "cells": 5811,
+      "sha256": "b772d5b97a81539b54d6e39530137ebd626505a7d4f11356d1497b5b822e3547"
+    },
+    {
+      "group": "IR",
+      "file": "new/train-normalized/data/IR_normalized.csv",
+      "size": 453868816,
+      "cells": 5364,
+      "sha256": "afa01e5893e0f6a95b3e9b1416cf7a3ee9b69236c3a59d20094310a34bca5ad1"
+    },
+    {
+      "group": "DMSO",
+      "file": "new/train-normalized/data/DMSO_normalized.csv",
+      "size": 555712703,
+      "cells": 5251,
+      "sha256": "1d2ffad9dd99b82c4dd67f6add5d15cb74d08a7d4fda352596c62359af58751b"
+    },
+    {
+      "group": "DMSO-IR",
+      "file": "new/train-normalized/data/DMSO_IR_normalized.csv",
+      "size": 638707402,
+      "cells": 6580,
+      "sha256": "c30607773d1ace6036425cb535c1501ae2bcf63a8f6856fdbb1f0622d529c8fc"
+    }
+  ],
+  "scope": "Read fixed nine gene rows from archived normalized CSVs, no new tests or model inference.",
+  "path_convention": "Source paths are relative to the original Radiation project root; source matrices are not included in this folder."
+}

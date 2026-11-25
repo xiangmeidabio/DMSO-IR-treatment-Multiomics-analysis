@@ -1,0 +1,21 @@
+Metric,Unit,Ctrl,IR,DMSO,DMSO-IR
+Estimated number of cells,cells,10645,10190,8505,11382
+Mean reads per cell,reads/cell,93721,95585,112095,89602
+Median genes per cell,genes/cell,2505,2098,3709,2978
+Number of reads,reads,997657954,974015910,953364887,1019844568
+Valid barcodes,fraction,0.972,0.956,0.975,0.972
+Sequencing saturation,fraction,0.72,0.663,0.711,0.737
+Q30 bases in barcode,fraction,0.964,0.964,0.951,0.964
+Q30 bases in RNA read,fraction,0.95,0.955,0.925,0.942
+Q30 bases in UMI,fraction,0.962,0.963,0.944,0.965
+Reads mapped to genome,fraction,0.954,0.926,0.94,0.928
+Reads mapped confidently to genome,fraction,0.911,0.838,0.911,0.889
+Reads mapped confidently to intergenic regions,fraction,0.054,0.114,0.029,0.042
+Reads mapped confidently to intronic regions,fraction,0.132,0.171,0.151,0.194
+Reads mapped confidently to exonic regions,fraction,0.725,0.553,0.731,0.653
+Reads mapped confidently to transcriptome,fraction,0.695,0.531,0.705,0.63
+Reads mapped antisense to gene,fraction,0.014,0.011,0.012,0.013
+Fraction reads in cells,fraction,0.876,0.572,0.765,0.873
+Total genes detected,genes,20765,21557,20972,21468
+Median UMI counts per cell,UMIs/cell,7955,6106,12846,9440
+"Retained, annotated cells",cells,5811,5364,5251,6580

@@ -1,0 +1,35 @@
+{
+  "read_only": true,
+  "genes": [
+    "Cenpw",
+    "Gapdh",
+    "Impa2",
+    "Prtn3",
+    "Ptma",
+    "Ramp1",
+    "Rps2",
+    "Snrpf",
+    "Uqcrb"
+  ],
+  "max_abs_error": 0.0007388471876410563,
+  "mean_abs_error": 0.00018774540693673443,
+  "scope": "Digitizes vector boxplot quartiles and whiskers using labelled tick coordinates; compares original archived RNA normalized values. Does not infer statistical test or recover exact source code.",
+  "figure_panel": "Figure 6h (existing plot before annotation cleanup)",
+  "compared_statistics": 180,
+  "statistics": [
+    "q25",
+    "median",
+    "q75",
+    "whisker_low",
+    "whisker_high"
+  ],
+  "statistical_significance": "Not recovered or validated by this audit",
+  "cell_counts": {
+    "Ctrl": 5811,
+    "IR": 5364,
+    "DMSO": 5251,
+    "DMSO-IR": 6580
+  },
+  "normalization": "log(1 + RNA counts per 10,000 total counts)",
+  "coordinate_precision_note": "Small numerical differences reflect recovery from finite-precision PDF vector coordinates; no new biological estimates were substituted for the archived data."
+}

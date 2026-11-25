@@ -1,0 +1,32 @@
+{
+  "scope": "Comparison of saved tables and inputs; no differential or motif analysis rerun",
+  "differential_peak_table_rows": 27898,
+  "selection": {
+    "FDR": "<0.05",
+    "IR_increased": "Fold < -1 in the Control-versus-IR source table",
+    "IR_decreased": "Fold > 1 in the Control-versus-IR source table"
+  },
+  "increased_regions": 2285,
+  "decreased_regions": 7791,
+  "saved_bed_coordinates_match_filtered_table_exactly_as_multisets": true,
+  "background_regions": 135927,
+  "eight_exported_narrowPeak_files_match_corresponding_DATA_files_byte_for_byte": true,
+  "HOMER_options": {
+    "genome": "mm10",
+    "size": 200,
+    "threads": 10,
+    "background_file": "motif_inputs/all.narrowPeak.bed"
+  },
+  "motif_display": {
+    "qvalue": "Benjamini q <0.05",
+    "name_deduplication": "Uppercase prefix before first opening parenthesis",
+    "ranking": "Retained source-file order",
+    "y_coordinate": "Negative natural logarithm of the HOMER enrichment P value",
+    "color": "Target motif percentage / background motif percentage"
+  },
+  "known_motif_counts_after_q_filter_and_name_deduplication": {
+    "IR_increased": 157,
+    "IR_decreased": 190
+  },
+  "differential_model_design_verified": false
+}

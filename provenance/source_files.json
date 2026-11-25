@@ -1,0 +1,302 @@
+[
+  {
+    "source": "Genome_Medicine_submission_20261123/Additional_file_3.csv",
+    "destination": "resources/classifier_training_protocols.csv",
+    "source_sha256": "985553037d05d770e95c9614f7e29e4ab0fcaf1b1f01e6845aa31477b5971413",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/03_logistic_regression_model.py",
+    "destination": "analysis/classification/2-model codes/03_logistic_regression_model.py",
+    "source_sha256": "53df1068e37b22bfa8a5cc2ecb18cbdc07d95b734281617d20dda46b530e37eb",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/04_mamba_model.py",
+    "destination": "analysis/classification/2-model codes/04_mamba_model.py",
+    "source_sha256": "41d44daaa5e0992017f489350bcab696ed3af4fd8173aaa0aa985f99c67fbe62",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/05_random_forest_model.py",
+    "destination": "analysis/classification/2-model codes/05_random_forest_model.py",
+    "source_sha256": "b329ca0beeb88280268acdaa91b3cf2d12c20d706eac8d7a5cf7749e7cfbfb6e",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/06_gradient_boosting_model.py",
+    "destination": "analysis/classification/2-model codes/06_gradient_boosting_model.py",
+    "source_sha256": "bad2b7b1e4ec72b266586250ab41e39d01a2f13662bc3a96d78ebb3b20f60f83",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/07_xgboost_model.py",
+    "destination": "analysis/classification/2-model codes/07_xgboost_model.py",
+    "source_sha256": "8fe4859048c8a9da3780cc49d32568a8b166c365587f8207f216e820d9638412",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/08_lightgbm_model.py",
+    "destination": "analysis/classification/2-model codes/08_lightgbm_model.py",
+    "source_sha256": "2344090f8751e8e7cacffc268ea63d9f091e58d0003e0a6e3a514b5fa3391036",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/09_svm_model.py",
+    "destination": "analysis/classification/2-model codes/09_svm_model.py",
+    "source_sha256": "473e06c066433955929d51d72ecc23cb06a21b99da922a009127ba30190230ff",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/10_knn_model.py",
+    "destination": "analysis/classification/2-model codes/10_knn_model.py",
+    "source_sha256": "5f65d32529c899b1f4240b059e10b97feffed6adc548ae076c9132cbd1b53fef",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/11_decision_tree_model.py",
+    "destination": "analysis/classification/2-model codes/11_decision_tree_model.py",
+    "source_sha256": "e7d065f7658e79371643a8d3d27e59b370ea9910c9aaf510bcfadeaeada013a4",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/12_extra_trees_model.py",
+    "destination": "analysis/classification/2-model codes/12_extra_trees_model.py",
+    "source_sha256": "e52bfd4da5bd54b65190fc6de1261acc2e5865f4bdfbf8145f3b72b6fc097bce",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/13_adaboost_model.py",
+    "destination": "analysis/classification/2-model codes/13_adaboost_model.py",
+    "source_sha256": "b0077cf6f9becc24f74f213b196c198fcbf9bd10b3420e199f2924ddc7513e24",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/14_gbm_model.py",
+    "destination": "analysis/classification/2-model codes/14_gbm_model.py",
+    "source_sha256": "76c690e0e7b10551c6e8232bab52c3877687eef9e91a9293379b407a8df6d6cc",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/15_mlp_model.py",
+    "destination": "analysis/classification/2-model codes/15_mlp_model.py",
+    "source_sha256": "7daca50433206f9ddc42222009259e5ae20a43e53b18d603906fa5a2e4265b4b",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/16_mlp_resnet50_model.py",
+    "destination": "analysis/classification/2-model codes/16_mlp_resnet50_model.py",
+    "source_sha256": "98172511a528ad5352f6546b93c59d4fd038b5d6635cf06624f648ed7cd4f29a",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/17_naive_bayes_model.py",
+    "destination": "analysis/classification/2-model codes/17_naive_bayes_model.py",
+    "source_sha256": "efbc5ba87639f6f5954b6af920f9d54d352f244524d784d25ad12539a879697e",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/18_lda_model.py",
+    "destination": "analysis/classification/2-model codes/18_lda_model.py",
+    "source_sha256": "97b17a778c2b05c196d9803422fdebc03ee44bb61121bf88168fe030cb121af8",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/19_qda_model.py",
+    "destination": "analysis/classification/2-model codes/19_qda_model.py",
+    "source_sha256": "c9efeac2a0e9a6912c609901e51bd67c172290cb5e24907401e3d442da9e8ccf",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/20_resnet18_model.py",
+    "destination": "analysis/classification/2-model codes/20_resnet18_model.py",
+    "source_sha256": "6fad162a0f515f4f4ae7f3d30c058772ab78e0e919eef0b894a130d6198768f8",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/21_resnet50_model.py",
+    "destination": "analysis/classification/2-model codes/21_resnet50_model.py",
+    "source_sha256": "bfb95de6353a4a73edcae9bc211f0dd861ea0a174dd3adc9127343048a591c0e",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/22_resnet101_model.py",
+    "destination": "analysis/classification/2-model codes/22_resnet101_model.py",
+    "source_sha256": "184415676d1d260d9ae601bc7f056b7aa6c0f5bceacb8bc88545170be7eddbf1",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/23_densenet121_model.py",
+    "destination": "analysis/classification/2-model codes/23_densenet121_model.py",
+    "source_sha256": "fd09f234dd6975b729ac49f4819c538c18707c442526a9a421b6fcb82601609f",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/24_transformer_model.py",
+    "destination": "analysis/classification/2-model codes/24_transformer_model.py",
+    "source_sha256": "a135984e9ac0136615faa32320e3dc2b392e157b0f9a5acc63913cef09a15220",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/2-model codes/log_helper.py",
+    "destination": "analysis/classification/2-model codes/log_helper.py",
+    "source_sha256": "d6f5c78bd176de237305c2a11f4b98f54103355408064d7a2609f1f7ef7ff63c",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/1-data/05_data_preprocessing.py",
+    "destination": "analysis/classification/1-data/05_data_preprocessing.py",
+    "source_sha256": "7d694b0de459e574f0a5b655880a1c5646e96d40f9b3998658f8ee0f994a0df5",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/4-SHAP/SHAP.py",
+    "destination": "analysis/classification/4-SHAP/SHAP.py",
+    "source_sha256": "548d9b34e14aba350142148a7ee2203f60b3d4853b6166799f9b229c6262025d",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/7-best_model_9genes/1_data_preprocessing_key_genes.py",
+    "destination": "analysis/classification/7-best_model_9genes/1_data_preprocessing_key_genes.py",
+    "source_sha256": "345bf3dc6f6f23c280d405bfb46ad697425cc5a0f11daca248822d4c3870e218",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "new/train-normalized/7-best_model_9genes/2_gradient_boosting_model_key_genes.py",
+    "destination": "analysis/classification/7-best_model_9genes/2_gradient_boosting_model_key_genes.py",
+    "source_sha256": "f266c5684f78fd890b622f39190d7c6aeb30a0fb6d0f1887e76861adbd3a3e59",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Genome_Medicine_submission_20261123/reproducibility/response_genes_100.txt",
+    "destination": "analysis/classification/data/key_gene.csv",
+    "source_sha256": "f6111d8a3693a1277508811adc190b4221b711881d4a87a35792a90c87f9d8ca",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/MLPModel.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/MLPModel.py",
+    "source_sha256": "d99e09b3a3c7dd449b057287e707ea20879ce16d5016f9e82823083653acbaa9",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/__init__.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/diffusion.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/diffusion.py",
+    "source_sha256": "a692901d79797703564efcdc984af3764596579bda7b31dad75e06a83354dd01",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/dist_util.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/dist_util.py",
+    "source_sha256": "a33a4f5e688a5485101cbb753a252ba84d8cf5aaf268718797f676a8c427b6e5",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/fp16_util.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/fp16_util.py",
+    "source_sha256": "31ce6b36be7a2a09606687a4935eca6b093f645c7ecd2111f43fca54aff3dc2a",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/logger.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/logger.py",
+    "source_sha256": "2974f48dd442dd1250ee7a80b3c47931783ceb3858896a521c18310c80f4b5bc",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/losses.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/losses.py",
+    "source_sha256": "0b0f5a5532910fbc7f16d30f2b891d8f1e20aa88881589ce4eacc2cc6ce06026",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/nn.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/nn.py",
+    "source_sha256": "09aac8395e4143880ac585e351dfb3291c3af440318986850254a7a7fe60e470",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/resample.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/resample.py",
+    "source_sha256": "13a06f67e655dc145833896389576b0f8e68b2f677dc9eed60ed8839aa6a9c62",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/respace.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/respace.py",
+    "source_sha256": "cd618004756e0fb007b4316e20db85e3289054e00939f2c0b4c73a8226f51a39",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/script_util.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/script_util.py",
+    "source_sha256": "873c00b10dab20307008866a742f95d002241abe316cf65d830317748e54d168",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/scrna_datasets.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/scrna_datasets.py",
+    "source_sha256": "a50a1579cbb616af1e24652acfb276fbbfe4fa44f74975d3a28d0a114a1fd11a",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/train_squidiff.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/train_squidiff.py",
+    "source_sha256": "c3cf5843907e6a96f1b5922be3760c06577378503aa038cebc51437319c4d57d",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/Squidiff/train_util.py",
+    "destination": "analysis/squidiff/vendor/Squidiff/train_util.py",
+    "source_sha256": "9ff72b49db4f87fb2c8ea72282dfe5e95dea1d2acea4ff5982a0f4ec53b963ab",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/sample_squidiff.py",
+    "destination": "analysis/squidiff/vendor/sample_squidiff.py",
+    "source_sha256": "3b524c9b6aea16cc4c8090794688756f5c8b48c0ba87bb4e2344a53a6176d986",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/训练/train_squidiff.py",
+    "destination": "analysis/squidiff/vendor/train_squidiff.py",
+    "source_sha256": "a3517adf89c053436ecbf5c8c386e1f407e4944c2c45429a747843c614c5d7f3",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/Squidiff-main/LICENSE",
+    "destination": "analysis/squidiff/vendor/LICENSE.upstream.txt",
+    "source_sha256": "3489202b96d503bd34b733eed4e7f58ed8614d1f0c2f1fceee08b2f4276df54d",
+    "change": "Unmodified source copy"
+  },
+  {
+    "source": "Squidiff/训练/1-process.ipynb",
+    "destination": "analysis/squidiff/notebooks/1-process.ipynb",
+    "source_sha256": "10a8273ff41310c238d7557dfb5afba38d1c6a50a7f7632c618123b403d08d95",
+    "change": "Selected 100-gene cells only; outputs and execution counts removed; local absolute paths made configurable/relative; analysis code otherwise preserved."
+  },
+  {
+    "source": "Squidiff/训练/2-data.ipynb",
+    "destination": "analysis/squidiff/notebooks/2-data.ipynb",
+    "source_sha256": "59faa182c592adf6a4f718e24a6998bf3a7bfa483c9cd674f0598098173ca688",
+    "change": "Selected 100-gene cells only; outputs and execution counts removed; local absolute paths made configurable/relative; analysis code otherwise preserved."
+  },
+  {
+    "source": "GitHub root Figure2_3_ATAC_Homer_Plot.R",
+    "destination": "analysis/legacy_fixes/Figure2_3_ATAC_Homer_Plot_fixed.R",
+    "source_sha256": "e7505056262ef5b7f4715671bcd8b91368ab530e7b24a8179110b53d3bd0a994",
+    "change": "Minimal copy: invalid Windows paths replaced with distributed table paths; y-axis label corrected from -log10 to -ln with numerical values unchanged; historical root file retained."
+  },
+  {
+    "source": "result/7_meld/run_meld.py",
+    "destination": "analysis/legacy_fixes/run_meld_archived.py",
+    "source_sha256": "9ecb697d604acf6bdf0db59328700d8f1b30195e278290cd927c8231b9a15f26",
+    "change": "Archived Python MELD source; comment IPython-only magic commands and make two personal absolute paths environment variables. Does not reconstruct damaged R plotting code."
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "Ctrl": {
+    "mode": "single",
+    "datatype": "RNA",
+    "run.time": 3979.6762,
+    "parameter": {
+      "type.mean": "triMean",
+      "trim": 0.1,
+      "raw.use": true,
+      "population.size": false,
+      "nboot": 100,
+      "seed.use": 1,
+      "Kh": 0.5,
+      "n": 1,
+      "distance.use": null,
+      "interaction.range": null,
+      "ratio": null,
+      "tol": null,
+      "k.min": null,
+      "contact.dependent": false,
+      "contact.range": null,
+      "contact.knn.k": null,
+      "contact.dependent.forced": false
+    }
+  },
+  "DMSO": {
+    "mode": "single",
+    "datatype": "RNA",
+    "run.time": 4174.4215,
+    "parameter": {
+      "type.mean": "triMean",
+      "trim": 0.1,
+      "raw.use": true,
+      "population.size": false,
+      "nboot": 100,
+      "seed.use": 1,
+      "Kh": 0.5,
+      "n": 1,
+      "distance.use": null,
+      "interaction.range": null,
+      "ratio": null,
+      "tol": null,
+      "k.min": null,
+      "contact.dependent": false,
+      "contact.range": null,
+      "contact.knn.k": null,
+      "contact.dependent.forced": false
+    }
+  },
+  "IR": {
+    "mode": "single",
+    "datatype": "RNA",
+    "run.time": 3438.4737,
+    "parameter": {
+      "type.mean": "triMean",
+      "trim": 0.1,
+      "raw.use": true,
+      "population.size": false,
+      "nboot": 100,
+      "seed.use": 1,
+      "Kh": 0.5,
+      "n": 1,
+      "distance.use": null,
+      "interaction.range": null,
+      "ratio": null,
+      "tol": null,
+      "k.min": null,
+      "contact.dependent": false,
+      "contact.range": null,
+      "contact.knn.k": null,
+      "contact.dependent.forced": false
+    }
+  },
+  "DMSO-IR": {
+    "mode": "single",
+    "datatype": "RNA",
+    "run.time": 2943.1086,
+    "parameter": {
+      "type.mean": "triMean",
+      "trim": 0.1,
+      "raw.use": true,
+      "population.size": false,
+      "nboot": 100,
+      "seed.use": 1,
+      "Kh": 0.5,
+      "n": 1,
+      "distance.use": null,
+      "interaction.range": null,
+      "ratio": null,
+      "tol": null,
+      "k.min": null,
+      "contact.dependent": false,
+      "contact.range": null,
+      "contact.knn.k": null,
+      "contact.dependent.forced": false
+    }
+  }
+}

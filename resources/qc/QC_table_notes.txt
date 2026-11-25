@@ -1,0 +1,16 @@
+Additional file 5. Sequencing quality metrics (XLSX).
+Table S3 summarizes the four scRNA-seq libraries and the final retained cell counts. Table S4 summarizes the eight ATAC-seq technical libraries and the two available vendor sequencing reports.
+
+SOURCE AND UNIT NOTES
+1. scRNA-seq sequencing metrics were transcribed from the author-supplied image of Table 3.1. All 76 numeric cells were visually checked. The initial Cell Ranger estimated cell count totals 40,722; the final retained and annotated dataset contains 23,006 cells (Ctrl 5,811; IR 5,364; DMSO 5,251; DMSO-IR 6,580). Retained counts come from the current manuscript and archived cell-count verification. The two counts refer to different processing stages.
+2. Workbook percentages are numeric fractions displayed as percentages. Table_S3_scRNAseq_QC.csv preserves fractions in 0–1 units. Reported integer counts and original proportions were not recalculated. The four reported mean-read values agree with total reads / estimated cells to within one read, consistent with integer rounding/truncation.
+3. N1/N2 = Ctrl, IR1/IR2 = IR, D1/D2 = DMSO, and DIR1/DIR2 = DMSO-IR. This mapping is explicit in the ATAC_new command, line 11. The two libraries per condition were separately prepared from the same pooled sample and are technical libraries, not independent biological replicates.
+4. ATAC duplication metrics come from each DATA/<library>/<library>.duplicates.log. Insert-size statistics come from each DATA/<library>/<library>.insertSize.txt. Reported FR and RF orientations remain separate. The sum of FR and RF read pairs equals examined read pairs minus duplicate read pairs for every library. All examined pairs here are in the pre-deduplication alignment input; the count is not raw sequencing depth. Picard estimated library size is a model estimate, not an observed count.
+5. N1/N2 vendor STAT_result.xls reports were available. Their raw/clean reads count individual reads, not pairs; raw bases / raw reads = 150 bases/read. Do not extrapolate the N1/N2 raw sequencing or Q30 metrics to the other six libraries. Vendor percent values are preserved as percentages in the separate vendor CSV.
+6. FRiP, TSS enrichment, and mitochondrial read fractions were not present in the source QC reports summarized here. No surrogate values were created.
+7. Numeric source precision is preserved in the CSV and XLSX cell values; workbook means/standard deviations are displayed to two decimals and duplication rates to two percentage decimals.
+
+SUGGESTED MANUSCRIPT SENTENCES
+Single-cell Methods: "Sequencing quality metrics and final retained cell counts are provided in Additional file 5: Table S3."
+ATAC Methods: "Library-level duplication and insert-size metrics are summarized in Additional file 5: Table S4."
+Additional files: "Additional file 5. Sequencing quality metrics (XLSX). Table S3 reports scRNA-seq library metrics and retained cell counts; Table S4 reports ATAC-seq duplication and insert-size metrics for the eight technical libraries, together with the available vendor sequencing summaries."

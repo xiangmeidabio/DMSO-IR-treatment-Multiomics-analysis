@@ -1,0 +1,3 @@
+# Portable transcription of the saved HOMER command; original source hash is in source_manifest.tsv.
+# Run directory: this directory; mm10 must be available to HOMER. This command was not rerun during packaging.
+cmd = ../../motif_inputs/1.IR_up_FC1.bed mm10 . -bg ../../motif_inputs/all.narrowPeak.bed -size 200 -p 10

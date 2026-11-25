@@ -1,0 +1,23 @@
+# Local inputs and execution products; repository resources are explicitly tracked.
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+outputs/
+runs/
+logs/
+*.h5ad
+*.h5
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bai
+*.pt
+*.pth
+*.pkl
+analysis/classification/results/
+analysis/classification/figure/
+analysis/classification/data/All_Groups_Combined_transposed.csv
+analysis/classification/7-best_model_9genes/key_genes_model_outputs/

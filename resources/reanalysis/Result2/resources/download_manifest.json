@@ -1,0 +1,20 @@
+[
+  {
+    "file": "mh.all.v2025.1.Mm.symbols.gmt",
+    "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1.Mm/mh.all.v2025.1.Mm.symbols.gmt",
+    "bytes": 48008,
+    "sha256": "2909a73db35f66a538267fa88dd8260e864a5c8d84d3c49c5262fa6bdb6e0805"
+  },
+  {
+    "file": "m5.go.bp.v2025.1.Mm.symbols.gmt",
+    "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1.Mm/m5.go.bp.v2025.1.Mm.symbols.gmt",
+    "bytes": 5093119,
+    "sha256": "343192bd2c6cad102eafd4f71504837c317726f53292b12fa1761dc0225ce865"
+  },
+  {
+    "file": "Augur_calculate_auc_source.R",
+    "url": "https://raw.githubusercontent.com/neurorestore/Augur/master/R/calculate_auc.R",
+    "bytes": 29022,
+    "sha256": "e954da8caaafcec10acb1bac4d274f71857ef56536842a48a8d6e3b28174442a"
+  }
+]

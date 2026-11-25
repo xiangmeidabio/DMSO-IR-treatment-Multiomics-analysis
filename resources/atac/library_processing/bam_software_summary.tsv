@@ -1,0 +1,9 @@
+library	condition	program	version	reference	threads	paired_read_input_suffixes	source_bam_relative_to_xiayou	original_bam_text_header_sha256	hash_scope
+N1	Ctrl	bowtie2	2.3.3.1	mm10	24	R1_val_1.fq.gz; R2_val_2.fq.gz	DATA/N1.dedup.bam	d1542932f97585fe01bf9826deff1f76b4f9c0ba54c765eb1a3f27941d8d69b5	BAM text header only; not the full BAM
+N2	Ctrl	bowtie2	2.3.3.1	mm10	24	R1_val_1.fq.gz; R2_val_2.fq.gz	DATA/N2.dedup.bam	b056024facc747d98dcdd11018d152284d7b8057616f1e98761e491fdf5bf535	BAM text header only; not the full BAM
+IR1	IR	bowtie2	2.3.3.1	mm10	24	R1_val_1.fq.gz; R2_val_2.fq.gz	DATA/IR1.dedup.bam	0ae2e302319833419430929f7bea93932506d532fd68d53023f4c60536aa72f4	BAM text header only; not the full BAM
+IR2	IR	bowtie2	2.3.3.1	mm10	24	R1_val_1.fq.gz; R2_val_2.fq.gz	DATA/IR2.dedup.bam	249436328d0c8c355bf2346a2a67d3ee0dac09b8e12e81340770a5a40d670c3c	BAM text header only; not the full BAM
+D1	DMSO	bowtie2	2.3.3.1	mm10	24	R1_val_1.fq.gz; R2_val_2.fq.gz	DATA/D1.dedup.bam	3ab6a0d3c57b8c089023515a625dcf5b5cddd179758118254c73594a9ba9c04c	BAM text header only; not the full BAM
+D2	DMSO	bowtie2	2.3.3.1	mm10	24	R1_val_1.fq.gz; R2_val_2.fq.gz	DATA/D2.dedup.bam	2dd8a5e1258e6903e8b43072a01dec27ff138cf07afc74d13ed9b697a3b904e1	BAM text header only; not the full BAM
+DIR1	DMSO-IR	bowtie2	2.3.3.1	mm10	24	R1_val_1.fq.gz; R2_val_2.fq.gz	DATA/DIR1.dedup.bam	26dc7c5a4be1479eee79ca207c231ef69fc37eb0cb6f5f907b43fcfae50851da	BAM text header only; not the full BAM
+DIR2	DMSO-IR	bowtie2	2.3.3.1	mm10	24	R1_val_1.fq.gz; R2_val_2.fq.gz	DATA/DIR2.dedup.bam	57f1cc8107df748129f7a7e1db6f6397561fa3fc0d8afec4cef7cfb3a802f5d1	BAM text header only; not the full BAM

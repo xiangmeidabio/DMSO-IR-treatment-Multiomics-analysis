@@ -1,0 +1,3 @@
+Library,Condition,Raw reads,Raw bases,Clean reads,Clean reads (%),Clean bases,Raw Q30 bases (%),Clean Q30 bases (%)
+N1,Ctrl,123308196,18496229400,117949266,95.65,12870103107,85.96,92.69
+N2,Ctrl,113533568,17030035200,108277994,95.37,11554429960,86.83,94.03
