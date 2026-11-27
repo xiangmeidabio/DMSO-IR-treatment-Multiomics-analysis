@@ -1,9 +1,12 @@
 Reproducibility materials for the DMSO irradiation study
-Prepared: 25 November 2026
+Prepared: 25 November 2026; SHAP selection and Figure 6h plotting methods clarified 26 November 2026; repository resources synchronized 27 November 2026
 
-This directory contains gene lists, cell-split metadata, fixed scoring definitions, the database extracted from saved CellChat objects, archived ATAC-seq motif-analysis resources, Figure 6h descriptive-expression verification, and selected original scripts. It does not contain complete expression matrices, trained model weights or a complete executable analysis environment. No models were retrained to prepare these files, and no reported performance values or model rankings were changed.
+This directory contains gene lists, cell-split metadata, fixed scoring definitions, the database extracted from saved CellChat objects, archived ATAC-seq motif-analysis resources, Figure 6h plotting code and descriptive-expression verification, and selected original scripts. It does not contain complete expression matrices, trained model weights or a complete executable analysis environment. No models were retrained to prepare these files, and no reported performance values or model rankings were changed.
 
 FILES
+
+shap_selection/
+The 14 positive SHAP contributors used for candidate prioritization, all 100 local SHAP values with display/selection indicators, and provenance. Selection uses the individually displayed genes in the example-cell waterfall, rather than a global ranking.
 
 response_genes_100.txt
 The ordered 100-gene panel used by the saved four-condition classifiers. One gene symbol per line, without a header. The list matches the saved training, validation and test feature columns and the independently reconstructed feature-selection list. It is also the reference panel for the 100-gene Squidiff analysis. Original gene symbols are retained.
@@ -24,7 +27,9 @@ SHA256SUMS.txt
 SHA-256 checksums for the distributed files. File paths are relative to this directory.
 
 fig6h/
-Descriptive verification of Figure 6h against archived RNA expression. The alignment table compares 180 values recovered from the PDF with expression-derived summaries: nine genes x four conditions x five statistics (first quartile, median, third quartile, lower whisker and upper whisker). The maximum absolute discrepancy was 0.0007388472 on the plotted scale. The correspondence supports identification of the plot values as single-cell log(1 + counts per 10,000) RNA expression. Quartiles use linear interpolation, and whiskers identify the most extreme observed values within 1.5 interquartile ranges of the box. The folder contains only summary statistics and provenance records, not the full expression matrices or cell-level expression values. The original plotting command, significance tests and multiple-testing adjustment were not recovered by this verification.
+Author-supplied Figure 6h plotting code, descriptive verification against archived RNA expression, and provenance. On 26 November 2026 the author supplied the full R code, now archived as plot_Fig6h_author_supplied.R without changing its analysis or plotting parameters. It fetches the RNA data layer and draws violin/box plots for the four actual conditions. Four specified comparisons per gene use two-sided unpaired cell-level Wilcoxon rank-sum tests with unadjusted P values; the comparisons branch of stat_compare_means does not apply the compare_means default Holm correction. The code was not rerun during this audit, and no significance tests were recalculated.
+
+The existing alignment table compares 180 PDF-derived box/whisker values with archived expression summaries. Its maximum absolute discrepancy was 0.0007388472, supporting identification of the plotted values as log(1 + counts per 10,000) RNA expression. These numerical audit files are unchanged. Their original statements about unrecovered plotting methods predate the author's code submission. The updated README and source_manifest.json distinguish that audit from the later supplied script. The original Seurat object, full expression matrices and cell-level values are not included.
 
 atac/
 Archived differential-peak tables, the exact increased/decreased region selections and background used for Figure 2e,f, HOMER known-motif results and parameters, and library-processing evidence. The accompanying README and validation summary distinguish the verified motif inputs from the unverified differential-testing design. Large BAM files and the complete per-library peak tables are not included.
@@ -41,7 +46,7 @@ reanalysis/Result2/check_depth_and_complexity.py
 reanalysis/integration_new/cellchat/audit_saved_cellchat.R
 They are unmodified copies. The Python scripts implement program scoring and UMI-depth checks. The R script extracts and verifies saved CellChat outputs; it does not rerun CellChat inference. These scripts require the original project inputs, including expression data and saved analysis objects, which are not included. They may also require intermediate tables and output directories from earlier analysis steps. They have not been executed as a standalone package.
 
-classifier_training_protocols.csv
+classifier_training_protocols.csv (also reported in Supplementary Table S3)
 Model-specific fitting pools, tuning procedures, validation use and common-test evaluation. The table retains all 22 source configurations in their original order. Twenty were included in Figure 6b. The additional GBM configuration and LightGBM are identified explicitly. Table row order is not a performance ranking.
 
 CLASSIFIER DESIGN
@@ -53,7 +58,7 @@ Training    4068    3754    3676    4606
 Validation  1162    1073    1050    1316
 Test         581     537     525     658
 
-The preprocessing code uses stratified random splitting with random_state = 42. StandardScaler was fitted to the 16,104 training cells and then applied to all three splits. Some model-specific routines combined training and validation cells for fitting and cross-validation; others used the training cells alone or used validation AUC for model selection, as detailed in Additional_file_3.csv. Scaling preceded model-specific cross-validation and was not refitted separately in each cross-validation fold.
+The preprocessing code uses stratified random splitting with random_state = 42. StandardScaler was fitted to the 16,104 training cells and then applied to all three splits. Some model-specific routines combined training and validation cells for fitting and cross-validation; others used the training cells alone or used validation AUC for model selection, as detailed in classifier_training_protocols.csv and Supplementary Table S3. Scaling preceded model-specific cross-validation and was not refitted separately in each cross-validation fold.
 
 The 100-gene panel was selected before the classifier split. The upstream selection involved 4,890 Ctrl cells, including 490 cells later assigned to the classifier test split. Thus, the classifier comparison evaluates a fixed, previously selected panel within this dataset; it is not an evaluation of a fully nested feature-selection pipeline. The separate subcluster-grouped regression analysis repeated feature selection within each fold and addresses a different prediction task.
 
@@ -69,7 +74,7 @@ The inference analysis uses a 60-dimensional semantic representation, a Ctrl-to-
 
 REMAINING REPRODUCIBILITY GAPS
 
-The reported 84-gene measured-versus-virtual selection is retained as an author-confirmed historical result. The earlier manuscript records positive log2 fold change and adjusted P < 0.01 as the selection criteria. On 25 November 2026, the author confirmed that the complete original result table was no longer available following disk formatting. This package therefore does not include that table or claim an independent reconstruction of all 84 gene identities. The original 14-gene SHAP selection list and its exact selection rule also remain unavailable and have not been confirmed. The supplied final nine-gene list documents the saved classifier panel; it does not by itself reconstruct the intermediate-set intersection.
+The reported 84-gene measured-versus-virtual selection is retained as an author-confirmed historical result. The earlier manuscript records positive log2 fold change and adjusted P < 0.01 as the selection criteria. On 25 November 2026, the author confirmed that the complete original result table was no longer available following disk formatting. This package therefore does not include that table or claim an independent reconstruction of all 84 gene identities. On 26 November 2026, the author recalled selecting the red positive-contribution genes individually displayed in the Figure 6d waterfall. Archived values reproduce 14 positive genes among the 19 individually displayed genes ranked by absolute SHAP value for the example cell and DMSO-IR class. The reconstructed selection and exact values are provided in shap_selection/. This set contains all nine final candidates and overlaps HSC module 3 at Ptma and Uqcrb. The supplied final nine-gene list documents the saved classifier panel; it does not by itself reconstruct the intermediate-set intersection.
 
 The complete original Squidiff training log and the corresponding trained checkpoint are not included. Recorded commands and notebook outputs do not supply a complete training history.
 

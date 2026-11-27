@@ -41,7 +41,7 @@ For the final nine-gene model, use the same expression input, changing `--genes`
 
 ## 2. SHAP
 
-The preserved `analysis/classification/4-SHAP/SHAP.py` loads the 100-gene gradient-boosting model and standardized data from the sibling `results` directory. It uses 50 k-means background centers and the first 100 validation cells; its displayed waterfall is for the first cell. For a fresh run, use a SHAP version with the list-per-class return convention expected by this archived script, or adapt the returned dimensions explicitly. Global mean-absolute SHAP importance is not the unavailable original 14-gene selection rule.
+The preserved `analysis/classification/4-SHAP/SHAP.py` loads the 100-gene gradient-boosting model and standardized data from the sibling `results` directory. It uses 50 k-means background centers and the first 100 validation cells; its displayed waterfall is for the first cell. For a fresh run, use a SHAP version with the list-per-class return convention expected by this archived script, or adapt the returned dimensions explicitly. The [archived selection records](../resources/shap_selection/) contain the example cell's 100 local SHAP values and the 14 positive contributors among the 19 individually displayed genes for the DMSO-IR class. This selection uses the local waterfall display and sign rule, separately from global mean-absolute SHAP importance. These records can be inspected without rerunning SHAP.
 
 Only load locally trusted pickle/model files. Model weights and pickle data are not published in this repository.
 

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-26",
+  "author_clarification": "The author recalled taking only the red bars from the Figure 6d waterfall plot. This recollection agrees with the archived values and displayed genes.",
+  "cell_id": "CACCAAATCCATTTAC-1_2",
+  "class_label": 3,
+  "class_condition": "DMSO-IR",
+  "rule": "Rank the 100 genes by descending absolute SHAP value for this cell and class; retain positive-SHAP genes among the 19 individually displayed genes (max_display=20; 81 features aggregated).",
+  "selected_count": 14,
+  "positive_count_across_all_100_features": 44,
+  "final_nine_all_in_selected_set": true,
+  "selected_intersection_HSC_module3": [
+    "Ptma",
+    "Uqcrb"
+  ],
+  "aggregated_other_81_SHAP": -0.034940746505742054,
+  "source_csv": "reanalysis/integration_new/ml/SHAP_waterfall_sample0_exact_values.csv",
+  "source_csv_sha256": "778bd3a72094c23ca37b5c64c218174811d6e16284b38ea39e256eb4aadc4314",
+  "source_shap_script": "new/train-normalized/4-SHAP/SHAP.py",
+  "original_saved_values": "new/train-normalized/4-SHAP/shap_results.pkl",
+  "new_training_or_SHAP_computation": false,
+  "scope": "Reconstructs the SHAP arm of candidate selection. The lost 84-gene measured-versus-virtual table and its full intersection have not been independently reconstructed."
+}

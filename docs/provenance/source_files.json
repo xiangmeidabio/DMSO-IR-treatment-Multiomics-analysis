@@ -298,5 +298,35 @@
     "destination": "analysis/transcriptional_sensitivity/meld.py",
     "source_sha256": "9ecb697d604acf6bdf0db59328700d8f1b30195e278290cd927c8231b9a15f26",
     "change": "Archived Python MELD source; comment IPython-only magic commands and make two personal absolute paths environment variables. Does not reconstruct damaged R plotting code."
+  },
+  {
+    "source": "Genome_Medicine_submission_20261123/reproducibility/shap_selection/README.txt",
+    "destination": "resources/shap_selection/README.txt",
+    "source_sha256": "8da85e96a88a71a01f2e36f0ab91af084fbc7219d7eab6b32de6c33499264302",
+    "change": "Unmodified public resource copy; archived values and author-supplied plotting code, no recomputation."
+  },
+  {
+    "source": "Genome_Medicine_submission_20261123/reproducibility/shap_selection/provenance.json",
+    "destination": "resources/shap_selection/provenance.json",
+    "source_sha256": "63341c7f2e29bf93b14c91d667706cdf3b6716d1f855f95424365154912df711",
+    "change": "Unmodified public resource copy; archived values and author-supplied plotting code, no recomputation."
+  },
+  {
+    "source": "Genome_Medicine_submission_20261123/reproducibility/shap_selection/positive_contributors_14.csv",
+    "destination": "resources/shap_selection/positive_contributors_14.csv",
+    "source_sha256": "8da021ddf8194bda8d856c562443eda6e732852f05a3bafd59e0d7e8c5838efb",
+    "change": "Unmodified public resource copy; archived values and author-supplied plotting code, no recomputation."
+  },
+  {
+    "source": "Genome_Medicine_submission_20261123/reproducibility/shap_selection/example_cell_SHAP_values_100.csv",
+    "destination": "resources/shap_selection/example_cell_SHAP_values_100.csv",
+    "source_sha256": "7b3c316281d758fad373e176b72a63605b759d532b1917e6b9cabcaff450fc89",
+    "change": "Unmodified public resource copy; archived values and author-supplied plotting code, no recomputation."
+  },
+  {
+    "source": "Genome_Medicine_submission_20261123/reproducibility/fig6h/plot_Fig6h_author_supplied.R",
+    "destination": "resources/fig6h/plot_Fig6h_author_supplied.R",
+    "source_sha256": "2ce0989a8cbdd7b1f1b3e6102a487a99071aa01e47d2121d20fda9c5e4bd2fc3",
+    "change": "Unmodified public resource copy; archived values and author-supplied plotting code, no recomputation."
   }
 ]

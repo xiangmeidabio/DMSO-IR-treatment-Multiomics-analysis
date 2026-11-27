@@ -1,4 +1,4 @@
-ATAC source resources for Additional file 4
+Archived ATAC-seq analysis resources
 
 This directory contains the recovered source tables and parameter evidence for
 the bulk ATAC-seq motif analysis in Figure 2e,f. The resources were checked

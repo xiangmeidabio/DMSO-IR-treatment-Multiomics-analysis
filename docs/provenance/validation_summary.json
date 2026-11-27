@@ -5,11 +5,27 @@
   "training_mean_zero_sd_one": true,
   "refuses_overwrite": true,
   "model_training_performed": false,
-  "R_sources_parse_passed": 22,
+  "R_sources_parse_passed": 23,
   "R_analysis_executed": false,
   "Python_model_training_executed": false,
   "GPU_inference_executed": false,
   "private_files_scan": "Independent QC agent found no reviewer tokens, credential assignments, personal absolute source paths, raw reads or expression matrices in added release files.",
   "superseded_or_damaged_R_originals_removed_from_current_tree": 2,
-  "reorganization": "Functional grouping and descriptive filenames; relocated analysis file bytes unchanged"
+  "reorganization": "Functional grouping and descriptive filenames; relocated analysis file bytes unchanged",
+  "resource_update_20261127": {
+    "new_public_files": 5,
+    "new_files_match_archived_sources": true,
+    "example_cell_SHAP_values": 100,
+    "individually_displayed_SHAP_genes": 19,
+    "selected_positive_SHAP_contributors": 14,
+    "final_nine_candidates_in_selected_set": true,
+    "selected_intersection_HSC_module3": [
+      "Ptma",
+      "Uqcrb"
+    ],
+    "Figure6h_script_parse_passed": true,
+    "Figure6h_script_executed": false,
+    "scientific_results_recomputed": false,
+    "updated_file_private_material_scan": "No reviewer/access-token URL parameters, GitHub credentials, private keys or personal absolute paths found."
+  }
 }

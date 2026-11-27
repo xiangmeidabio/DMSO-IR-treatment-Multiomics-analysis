@@ -11,8 +11,8 @@ The table links the current manuscript figures to their analysis code and suppor
 | Fig. 5 | Expression diversity, transcriptional sensitivity and response-associated gene selection | [Sensitivity scripts](../analysis/transcriptional_sensitivity/); [100-gene panel](../resources/response_genes_100.txt) |
 | Fig. 6a–d | Treatment classification, within-cell-type evaluation and SHAP | [Classification workflow](../analysis/classification/); [training protocols](../resources/classifier_training_protocols.csv); [cell partitions](../resources/classifier_cell_split.csv) |
 | Fig. 6e,f | Predicted and measured DMSO-IR expression | [Squidiff workflow](../analysis/squidiff/): transfer of the Ctrl-to-IR semantic shift to DMSO cells, joint PCA and expression comparison |
-| Fig. 6g | Candidate-set intersection | [Nine-gene panel](../resources/classifier_genes_9.txt); see [source notes](provenance.md) for availability of the intermediate gene sets |
-| Fig. 6h | Candidate-gene expression across treatment conditions | [Archived expression summaries and plot-value checks](../resources/fig6h/) |
+| Fig. 6g | Candidate-set intersection | [Nine-gene panel](../resources/classifier_genes_9.txt); [14 positive SHAP contributors and example-cell values](../resources/shap_selection/); see [source notes](provenance.md) for the missing measured-versus-predicted table |
+| Fig. 6h | Candidate-gene expression across treatment conditions | [Author-supplied plotting code](../resources/fig6h/plot_Fig6h_author_supplied.R); [archived expression summaries and plot-value checks](../resources/fig6h/) |
 | Fig. 6i | Nine-gene treatment classifier | [Nine-gene classification scripts](../analysis/classification/7-best_model_9genes/) |
 | Supplementary Fig. S7e | Squidiff training-loss curve | [Recorded training configuration](../analysis/squidiff/); the complete original training log is not included |
 
